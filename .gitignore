@@ -1,0 +1,16 @@
+# Virtual environment
+.env/
+.conda/
+
+# Data and results
+*.csv
+*.pickle
+
+# Logs
+*.log
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints
+
+# VS Code settings
+.vscode/
