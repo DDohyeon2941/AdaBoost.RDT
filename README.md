@@ -34,4 +34,4 @@ Experimental results demonstrate that AdaBoost.RDT:
 We welcome contributions to this project. Please submit pull requests or open issues for any bugs or enhancements.
 
 ## **Citation**
-For more details, please refer to the full paper on [IEEE](https://ieeexplore.ieee.org/document/10705154).
+For more details, please refer to the full paper on [IEEE ACCESS](https://ieeexplore.ieee.org/document/10705154).
