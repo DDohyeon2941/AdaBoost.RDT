@@ -4,23 +4,16 @@ Created on Mon Oct 18 18:57:12 2021
 
 @author: dohyeon
 """
-#import ipdb
+
 import time
 import numpy as np
-import pickle
-import gzip
 import user_utils as uu
-#from analysis_utils import *
 from sklearn.ensemble import GradientBoostingRegressor, AdaBoostRegressor
 from xgboost.sklearn import XGBRegressor
 from robust_boosting_algorithm import GradientBoostingRegressor1
 
 from sklearn.tree import DecisionTreeRegressor
 from noise_robust_models_0418 import AdaBoost_RT
-
-#기존 py파일명에서 _1만 추가됨, 약한학습자 수에 대한 추가실험 GRB: 50, Adaboost:100
-# 최대나무깊이에 대한 추가실험: 3,4
-#np.seterr(all='ignore')
 
 def logging_time(original_fn):
     def wrapper_fn(*args, **kwargs):
